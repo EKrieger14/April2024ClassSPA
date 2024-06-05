@@ -84,7 +84,8 @@ router.put("/:id", async (request, response) => {
         }
       },
       {
-        new: true
+        new: true,
+        runValidators: true
       }
     );
 
